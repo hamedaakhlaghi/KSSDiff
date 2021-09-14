@@ -16,8 +16,7 @@ import KSSFoundation
 open class DiffMatchPatch {
     // MARK: Configuration Parameters
  
- public init() {
- }
+
     /// Number of seconds to map a diff before giving up (0 for infinity).
     public var diffTimeout: TimeInterval = duration(1.0, .seconds)
 
