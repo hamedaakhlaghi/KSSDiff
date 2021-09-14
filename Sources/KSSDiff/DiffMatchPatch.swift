@@ -13,7 +13,7 @@ import KSSFoundation
  Engine for computing the difference between two strings. This is a Swift port of the Python3 version of the
  code found at https://github.com/google/diff-match-patch.
  */
-open public class DiffMatchPatch {
+open class DiffMatchPatch {
     // MARK: Configuration Parameters
  
  public init() {
